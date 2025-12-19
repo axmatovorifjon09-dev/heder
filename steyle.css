@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+header{
+    background-color: rgb(32, 38, 45);
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    color: white;
+}
+
+
+
+.img{
+
+}
+
+
+.imgikki{
+
+}
+
+@media(max-width:1020px){
+   ul{
+    display: none;
+   }
+
+   .imgikki{
+    display: block;
+   }
+}
+
+
+
+
+
+@media(max-width:1000px){
+    .imgikki{
+        display: none;
+    }
+
+    ul{
+        display: block;
+    }
+}
+
+
+
